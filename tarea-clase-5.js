@@ -41,6 +41,15 @@ Ejemplo form:
 *
 * */
 
+const salarioAnual=document.querySelector('#salario-anual')
+const botonCalcularSalarioMensual=document.querySelector('#calcular-salario-mensual')
+botonCalcularSalarioMensual.onclick = function (){
+  let salarioMensualCalculado=salarioAnual.value/12
+  const salarioMensual= document.querySelector('#salario-mensual');
+  salarioMensual.value=salarioMensualCalculado;
+  return false;
+}
+
 //TAREA: En otro archivo distinto,
 // Por cada clase de r/argentina programa existente, vamos a pedir:
 // horas, minutos y segundos de cada video. Ej. Si un video dura
