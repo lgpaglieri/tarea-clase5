@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pagina de Bienvenida</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <h1 id='bienvenida'>Bienvenido!</h1>
+    <form id="datos-usuario">
+        <fieldset id="titulo-solicitud-datos">Por favor, ingresar los siguientes datos:
+        <br>
+        <label class="datos-a-solicitar">Primer nombre:</label>        
+        <input type="text" id="primer-nombre-usuario" class="datos-usuario" placeholder="Ej. Lionel"/>
+        <label class="datos-a-solicitar">Segundo nombre:</label>
+        <input type="text" id="segundo-nombre-usuario" class="datos-usuario" placeholder="Ej. Andres"/>
+        <label class="datos-a-solicitar">Apellido:</label>
+        <input type="text" id="apellido-usuario" class="datos-usuario" placeholder="Messi"/>
+        <label class="datos-a-solicitar">Edad:</label>
+        <input type="number" id="edad-usuario" class="datos-usuario" placeholder="Ej. 34"/>
+        <button id="boton-enviar-datos" type="submit">Enviar datos</button>
+        </fieldset>
+    </form>
+    <div id="consolidado-datos-usuario"></div>
+    <script src="bienvenida.js"></script>
+</body>
+</html>
