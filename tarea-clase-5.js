@@ -22,6 +22,17 @@ $botonCalcular.onclick = function()
 //cuando el usuario haga click en el botón "calcular", mostrar el salario mensual
 // en una caja de texto deshabilitada. --> <input type="text" disabled id="salario-mensual"/>
 
+
+const salarioAnual=document.querySelector('#salario-anual')
+const botonCalcularSalarioMensual=document.querySelector('#calcular-salario-mensual')
+botonCalcularSalarioMensual.onclick = function (){
+  let salarioMensualCalculado=salarioAnual.value/12
+  const salarioMensual= document.querySelector('#salario-mensual');
+  salarioMensual.value=salarioMensualCalculado;
+  return false;
+}
+
+
 //TAREA: En otro archivo html (no Index) y otro archivo js (no tarea-clase-5.js),
 // creá un formulario que capture el primer nombre, segundo nombre, apellido/s y edad del usuario
 // también vamos a crear un <h1> que diga Bienvenido!
@@ -40,15 +51,6 @@ Ejemplo form:
   <div id="resultado">Hola</div>
 *
 * */
-
-const salarioAnual=document.querySelector('#salario-anual')
-const botonCalcularSalarioMensual=document.querySelector('#calcular-salario-mensual')
-botonCalcularSalarioMensual.onclick = function (){
-  let salarioMensualCalculado=salarioAnual.value/12
-  const salarioMensual= document.querySelector('#salario-mensual');
-  salarioMensual.value=salarioMensualCalculado;
-  return false;
-}
 
 //TAREA: En otro archivo distinto,
 // Por cada clase de r/argentina programa existente, vamos a pedir:
