@@ -60,6 +60,37 @@ Ejemplo form:
 // al apretar el botón "Calcular tiempo total", debe mostrar en un
 // <strong> pre-creado el tiempo total de los videos.
 
+// Clase 1 (texto) - Inserte duracion en horas minutos segundos 
+// ... a horas le pongo clase horas, a minutos clase minutos , a segundos clase segundos
+// Clase 19 (text9) - inserte duracion en horas minutos segundos
+
+// variable = array con todos los clase horas
+// idem minutos
+// idem segundos
+
+// boton function calcular total 
+
+//  for (i=0,i<=array numero de clase.length, i++){
+//   let horas totales+=array horas(i)
+//   let minutos totales += array minutos(i)
+//   let segudnso totales += array segundos (i)
+//  }
+// let minutostotalesahoras=Math.trunc(minutos totales /60)
+// let minutos restantes = minutos totales % 60
+// let segundostotalesaminutos = math.trunc(segundos totales /60 )
+// let segundsorestantes = segundos totales % 60
+// mostrar en cuadro de texto , `la suma de las duraciones de los videos desde la {clase1} hasta la {clase19}(aca seria el array clase -1) 
+// de argentinaprograma dan un total de {horastotales} horas, {minutos totales} minutos y {segundosrestantes} segundos.`
+// return false
+// sumar minutos de todos los videos x 60 a segundos
+// sumar segundos de todos los videos
+// calcular segundos totales 
+// Math.trunc(segundos totales / 60 ) - aca da el numero de minutos totales
+// segundos totales % 60 - aca da el numero de segundos restantes
+// Math.trunc(minutos totales / 60) aca da el numero de minutos a horas convertido
+// minutos totales % 60 aca da el numero de minutos restantes 
+// total videos - horas totales , minutos restantes , segundos restantes 
+
 //TAREA: En otro archivo distinto,
 // Crear una lista de <ol> y <li> que contengan sólo números.
 // Convertir esos números a un array y:
