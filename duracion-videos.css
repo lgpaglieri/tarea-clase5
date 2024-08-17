@@ -1,0 +1,70 @@
+* {
+    font-family: calibri, sans-serif;
+}
+
+body {
+    margin:0%;
+}
+
+h1 {
+    text-align: center;
+    height: 50px;
+    margin-top: 0;
+    width: 100%;
+    font-weight: bold;
+    background: linear-gradient(grey,transparent);
+}
+
+h2 {
+    text-align: center;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    width:100%;
+}
+
+div {
+    display: grid;
+    grid-template-columns: repeat(4, 70px 100px 100px 100px);
+    row-gap: 5px;
+    column-gap: 10px;
+}
+#titulo-horas {
+    grid-column:2;
+}
+
+.nombre-video {
+    grid-column: 1;
+    text-align: right;
+}
+
+.unidad-tiempo {
+    text-align: center;
+    font-weight: bold;
+}
+
+.duracion-horas {
+    grid-column:2;
+}
+
+.duracion-minutos {
+    grid-column:3;
+}
+
+.duracion-segundos {
+    grid-column: 4;
+}
+
+form {
+    padding: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 480px;
+}
+
+#calcular-duracion {
+    margin-top:10px;
+    margin-left:670px;
+    text-align: center;
+}
