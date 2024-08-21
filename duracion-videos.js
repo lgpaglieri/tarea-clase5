@@ -13,14 +13,14 @@ botonCalcularDuracionCurso.onclick= function (){
     let sumaMinutosCurso=0;
     let sumaSegundosCurso=0;
     // En este for se pasan las NodeList a Arrays
-    for (i=0;i<nombresDeClases.length;i++){
+    for (let i=0;i<nombresDeClases.length;i++){
         arrayNombresDeClases.push(nombresDeClases[i].innerText);
         arrayHorasVideo.push(horasVideo[i].value);
         arrayMinutosVideo.push(minutosVideo[i].value);
         arraySegundosVideo.push(segundosVideo[i].value);
     }
     // En este otro for se suman los valores de los arrays correspondientes a horas, minutos y segundos 
-    for (i=0;i<nombresDeClases.length;i++){
+    for (let i=0;i<nombresDeClases.length;i++){
         sumaHorasCurso+=Number(arrayHorasVideo[i]);
         sumaMinutosCurso+=Number(arrayMinutosVideo[i]);
         sumaSegundosCurso+=Number(arraySegundosVideo[i]);
