@@ -16,7 +16,7 @@ for (let i = 0; i < nodeListNumeros.length; i++) {
 
 // Calculo de valor maximo en array
 let numeroMax = arrayListaNumeros[0];
-for (let i = 0; i < arrayListaNumeros.length; i++) {
+for (let i = 1; i < arrayListaNumeros.length; i++) {
   if (arrayListaNumeros[i] > numeroMax) {
     numeroMax = arrayListaNumeros[i];
   }
@@ -24,15 +24,7 @@ for (let i = 0; i < arrayListaNumeros.length; i++) {
 
 // Calculo de valor minimo en array
 let numeroMin = arrayListaNumeros[0];
-for (let i = 0; i < arrayListaNumeros.length; i++) {
-  if (arrayListaNumeros[i] < numeroMin) {
-    numeroMin = arrayListaNumeros[i];
-  }
-}
-
-// Calculo de valor minimo en array
-let = arrayListaNumeros[0];
-for (let i = 0; i < arrayListaNumeros.length; i++) {
+for (let i = 1; i < arrayListaNumeros.length; i++) {
   if (arrayListaNumeros[i] < numeroMin) {
     numeroMin = arrayListaNumeros[i];
   }
